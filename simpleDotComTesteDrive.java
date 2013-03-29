@@ -17,10 +17,10 @@ public static void main (String [] args) {
 		testResult = "passed";
 
 	}
-
+	System.out.println ("   ");
 	System.out.println (testResult);
 
-	/*Public String checkYourself (String 'stringGuess') {
+	Public String checkYourself (String 'stringGuess') {
 	
 	int guess = integer.parseInt (stringGuess);
 
@@ -29,6 +29,7 @@ public static void main (String [] args) {
 	For (int cell : locationCells) {
 
 		int (guess == cell) {
+
 
 			result = "hit";
 			numOfHits++;
@@ -39,7 +40,7 @@ public static void main (String [] args) {
 
 	 if (numOfHits == locationsCells.lenght) {
 
-	 	result = "Kill"
+	 	result = "Kill";
 
 	 }//Fim do teste if
 
@@ -49,7 +50,7 @@ public static void main (String [] args) {
 	 return result;
 
 
-	}//fim do metodo*/
+	}//fim do metodo
 
 		}
 

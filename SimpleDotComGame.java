@@ -20,12 +20,13 @@ public class SimpleDotComGame{
 
 	while (isAlive == true) {
 
-		String guess = helper.getUserInput ("Insira um número");
+		String guess = helper.getUserInput ("Insira um numero");
 
 		String result = theDotCom.checkYourself (guess);
 
 		numOfGuesses++;
-
+			System.out.println ("       ");
+			
 		if (result.equals ("Kill")) {
 			isAlive = false;
 
